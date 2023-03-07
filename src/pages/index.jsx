@@ -39,7 +39,9 @@ export default function Home() {
             <h1 style={{ fontSize: '7.5vh', lineHeight: '.7' }}>Game</h1>
             <h2 style={{ fontSize: '3.5vh', marginLeft: '5px' }}>Resident Pixel 2</h2>
             <h5 style={{ fontSize: '2vh', marginTop: '15px', marginLeft: '5px' }}>Recreating a simple 2D top-down view shooter with incremental difficulty and immersiveness</h5>
-            <button id="pressButton" type="button" className="btn btn-light" style={{ marginTop: '1vh', fontSize: '18px', fontWeight: 'bold' }}>Play</button>
+            <a href="https://yilutmak.github.io/game/">
+              <button id="pressButton" type="button" className="btn btn-light" style={{ marginTop: '1vh', fontSize: '18px', fontWeight: 'bold' }}>Play</button>
+            </a>
             <div id="scrolldown">
               <a id="scrollDownWord" href="#project2">Scroll Down</a>
             </div>

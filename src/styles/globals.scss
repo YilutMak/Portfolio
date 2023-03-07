@@ -5,6 +5,25 @@
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: #161616 !important;
+
+}
+
+.navbar-brand {
+  color:#c7c7c7 !important;
+}
+
+.nav-link {
+    color: #c7c7c7 !important;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #262626 !important;
+
+}
+
+.dropdown-item {
+        color: #c7c7c7 !important;
 }
 
 .scroll-item {
@@ -26,23 +45,21 @@ html {
 }
 
 #intro {
-height: 40%;
+height: 100%;
+margin-top: 50%;
+color: rgb(255, 255, 255);
+text-shadow: 0 0 10px #ffffff, 0 0 20px #fff, 0 0 30px #d4d4d4
 }
 
 #browseProject {
-height: 20%;
-margin-bottom: 10%;
-}
-
-#introf{
 position: relative;
-top: 40%;
-left: 50%;
-transform: translateX(-50%);
+bottom: 30%;
+color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #fff, 0 0 30px #d4d4d4
 }
 
-#browseProjectd{
-  margin-top: 10px;
+#browseProject{
+  margin-top: 40%;
 }
 
 #project1 {

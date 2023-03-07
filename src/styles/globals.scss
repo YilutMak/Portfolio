@@ -1,6 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~react-toastify/dist/ReactToastify";
 
+html * {
+  font-family: Century Gothic;
+}
+
 .navbar{
   position: fixed;
   top: 0;
@@ -25,6 +29,7 @@
 .dropdown-item {
         color: #c7c7c7 !important;
 }
+
 
 .scroll-item {
   scroll-snap-align: start;
@@ -55,11 +60,13 @@ text-shadow: 0 0 10px #ffffff, 0 0 20px #fff, 0 0 30px #d4d4d4
 position: relative;
 bottom: 30%;
 color: rgb(255, 255, 255);
-  text-shadow: 0 0 10px #ffffff, 0 0 20px #fff, 0 0 30px #d4d4d4
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #fff, 0 0 30px #d4d4d4;
+margin-top: 40%;
+  transition: .5s;
 }
 
-#browseProject{
-  margin-top: 40%;
+#browseProject:hover{
+scale: 1.3;
 }
 
 #project1 {
@@ -84,4 +91,34 @@ color: rgb(255, 255, 255);
   background-image: url(../../src/images/thok.jpg) !important;
   background-size: cover;
   background-position: center center
+}
+
+#section1{
+  height: 100vh;
+  width: 40%;
+  color: #fff;
+}
+
+
+
+#scrollDownWord{
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #fff, 0 0 30px #d4d4d4;
+}
+
+#scrolldown {
+  font-size: 2.3vh;
+  margin-left: .5vh;
+    margin-Top: 15px;
+}
+
+#scrolldown:hover {
+  font-size: 2.6vh;
+  transform: translateX(-1%) translateY(-2%);
+  transition: .5s;
+}
+
+#pressButton{
+  width:18vh;
 }

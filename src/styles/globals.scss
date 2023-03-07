@@ -56,7 +56,7 @@ html {
 height: 100%;
 margin-top: 20%;
 color: rgb(255, 255, 255);
-text-shadow: 0 0 10px #ffffff, 0 0 20px #fff, 0 0 30px #d4d4d4
+text-shadow: 0 0 10px #ffffff, 0 0 20px #fff, 0 0 30px #d4d4d4;
 }
 
 #browseProject {
@@ -64,8 +64,10 @@ position: relative;
 bottom: 30%;
 color: rgb(255, 255, 255);
   text-shadow: 0 0 10px #ffffff, 0 0 20px #fff, 0 0 30px #d4d4d4;
-  margin-top: 15vh;
+  margin-top: 20vh;
   transition: .5s;
+  font-size: 2.5vh;
+  margin-left: 10px;
 }
 
 #browseProject:hover{

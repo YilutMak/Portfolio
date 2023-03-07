@@ -88,7 +88,7 @@ export default function Home() {
             <h2 style={{ fontSize: '3.5vh', marginLeft: '5px' }}>Thok</h2>
             <h5 style={{ fontSize: '2vh', marginTop: '15px', marginLeft: '5px' }}>To create a gamified typing website where users can train their typing skills in various modes and
               earn rewards</h5>
-            <a href="https://thok-app.vercel.app">
+            <a href="https://thok-app.vercel.app/">
               <button id="pressButton" type="button" className="btn btn-light" style={{ marginTop: '1vh', fontSize: '18px', fontWeight: 'bold', color: '#85bdca' }}>Visit</button>
             </a>
             <div id="scrolldown">

@@ -17,7 +17,7 @@ export default function Home() {
       <div id="home" className="scroll-item d-flex justify-content-center align-items-center" style={{ backgroundColor: 'gray' }}>
 
         <div className="">
-          <h1 id="intro" className="row" style={{ fontFamily: 'Courier New' }}>Hi,Im Cytus Mak,<br /> Full Stack Developer</h1>
+          <h1 id="intro" className="row" style={{ fontFamily: 'Courier New', fontSize: '5.5vw' }}>Hi,Im Cytus Mak,<br /> Full Stack Developer</h1>
 
           <div id="browseProject" className="row"><a
             href="#project1"

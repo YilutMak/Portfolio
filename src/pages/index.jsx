@@ -36,11 +36,11 @@ export default function Home() {
       <div id="project1" className="scroll-item d-flex justify-content-end " style={{ backgroundColor: 'red' }}>
         <div id="section1" className="">
           <div className="" style={{ marginTop: '35vh', marginRight: '4vh' }}>
-            <h1 style={{ fontSize: '7.5vh', lineHeight: '.7' }}>Game</h1>
+            <h1 style={{ fontSize: '6.7vh', lineHeight: '.7' }}>Game</h1>
             <h2 style={{ fontSize: '3.5vh', marginLeft: '5px' }}>Resident Pixel 2</h2>
             <h5 style={{ fontSize: '2vh', marginTop: '15px', marginLeft: '5px' }}>Recreating a simple 2D top-down view shooter with incremental difficulty and immersiveness</h5>
             <a href="https://yilutmak.github.io/game/">
-              <button id="pressButton" type="button" className="btn btn-light" style={{ marginTop: '1vh', fontSize: '18px', fontWeight: 'bold' }}>Play</button>
+              <button id="pressButton" type="button" className="btn btn-light" style={{ marginTop: '1vh', fontSize: '18px', fontWeight: 'bold', color: '#050c1f' }}>Play</button>
             </a>
             <div id="scrolldown">
               <a id="scrollDownWord" href="#project2">Scroll Down</a>
@@ -49,11 +49,54 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="project2" className="scroll-item" style={{ backgroundColor: 'green' }} />
+      <div id="project2" className="scroll-item d-flex justify-content-end " style={{ backgroundColor: 'red' }}>
+        <div id="section1" className="">
+          <div className="" style={{ marginTop: '35vh', marginRight: '4vh' }}>
+            <h1 style={{ fontSize: '6.2vh', lineHeight: '.7' }}>Express</h1>
+            <h2 style={{ fontSize: '3.5vh', marginLeft: '5px' }}>Pixel Canvas</h2>
+            <h5 style={{ fontSize: '2vh', marginTop: '15px', marginLeft: '5px' }}>To create an interactive shared hub for people to collaborate and create</h5>
+            <a href="https://pixel-project.up.railway.app/">
+              <button id="pressButton" type="button" className="btn btn-light" style={{ marginTop: '1vh', fontSize: '18px', fontWeight: 'bold', color: '#ecc54f' }}>Visit</button>
+            </a>
+            <div id="scrolldown">
+              <a id="scrollDownWord" href="#project3">Scroll Down</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      <div id="project3" className="scroll-item" style={{ backgroundColor: 'yellow' }} />
+      <div id="project3" className="scroll-item d-flex justify-content-end " style={{ backgroundColor: 'red' }}>
+        <div id="section1" className="">
+          <div className="" style={{ marginTop: '35vh', marginRight: '4vh' }}>
+            <h1 style={{ fontSize: '6.7vh', lineHeight: '.7' }}>REACT</h1>
+            <h2 style={{ fontSize: '3.5vh', marginLeft: '5px' }}>WallStats</h2>
+            <h5 style={{ fontSize: '2vh', marginTop: '15px', marginLeft: '5px' }}>Inspired by the infamous robinhood app, the project strives to create a clean and intuitive stock tracker</h5>
+            <a href="https://stock-app-production.up.railway.app/">
+              <button id="pressButton" type="button" className="btn btn-light" style={{ marginTop: '1vh', fontSize: '18px', fontWeight: 'bold', color: '#60ae3e' }}>Play</button>
+            </a>
+            <div id="scrolldown">
+              <a id="scrollDownWord" href="#project4">Scroll Down</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      <div id="project4" className="scroll-item" style={{ backgroundColor: 'purple' }} />
+      <div id="project4" className="scroll-item d-flex justify-content-end " style={{ backgroundColor: 'red' }}>
+        <div id="section1" className="">
+          <div className="" style={{ marginTop: '35vh', marginRight: '4vh' }}>
+            <h1 style={{ fontSize: '6.7vh', lineHeight: '.7' }}>NEXT</h1>
+            <h2 style={{ fontSize: '3.5vh', marginLeft: '5px' }}>Thok</h2>
+            <h5 style={{ fontSize: '2vh', marginTop: '15px', marginLeft: '5px' }}>To create a gamified typing website where users can train their typing skills in various modes and
+              earn rewards</h5>
+            <a href="https://thok-app.vercel.app">
+              <button id="pressButton" type="button" className="btn btn-light" style={{ marginTop: '1vh', fontSize: '18px', fontWeight: 'bold', color: '#85bdca' }}>Play</button>
+            </a>
+            <div id="scrolldown">
+              <a id="scrollDownWord" href="#home">Return to Top</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

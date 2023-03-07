@@ -30,6 +30,9 @@ html * {
         color: #c7c7c7 !important;
 }
 
+.dropdown-menu{
+--bs-dropdown-link-hover-bg: #313131 !important;
+}
 
 .scroll-item {
   scroll-snap-align: start;

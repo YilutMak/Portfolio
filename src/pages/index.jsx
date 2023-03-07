@@ -72,7 +72,7 @@ export default function Home() {
             <h2 style={{ fontSize: '3.5vh', marginLeft: '5px' }}>WallStats</h2>
             <h5 style={{ fontSize: '2vh', marginTop: '15px', marginLeft: '5px' }}>Inspired by the infamous robinhood app, the project strives to create a clean and intuitive stock tracker</h5>
             <a href="https://stock-app-production.up.railway.app/">
-              <button id="pressButton" type="button" className="btn btn-light" style={{ marginTop: '1vh', fontSize: '18px', fontWeight: 'bold', color: '#60ae3e' }}>Play</button>
+              <button id="pressButton" type="button" className="btn btn-light" style={{ marginTop: '1vh', fontSize: '18px', fontWeight: 'bold', color: '#60ae3e' }}>Visit</button>
             </a>
             <div id="scrolldown">
               <a id="scrollDownWord" href="#project4">Scroll Down</a>
@@ -89,7 +89,7 @@ export default function Home() {
             <h5 style={{ fontSize: '2vh', marginTop: '15px', marginLeft: '5px' }}>To create a gamified typing website where users can train their typing skills in various modes and
               earn rewards</h5>
             <a href="https://thok-app.vercel.app">
-              <button id="pressButton" type="button" className="btn btn-light" style={{ marginTop: '1vh', fontSize: '18px', fontWeight: 'bold', color: '#85bdca' }}>Play</button>
+              <button id="pressButton" type="button" className="btn btn-light" style={{ marginTop: '1vh', fontSize: '18px', fontWeight: 'bold', color: '#85bdca' }}>Visit</button>
             </a>
             <div id="scrolldown">
               <a id="scrollDownWord" href="#home">Return to Top</a>

@@ -1,13 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~react-toastify/dist/ReactToastify";
 
-
-#home {
-  background-image: url(../../src/images/homeWall.jpg)  !important;
-  background-size: cover;
-  background-position: center center
-}
-
 .navbar{
   position: fixed;
   top: 0;
@@ -24,4 +17,54 @@
 html {
   /* body won't work ¯\_(ツ)_/¯ */
   scroll-snap-type: y proximity;
+}
+
+#home {
+  background-image: url(../../src/images/homewall2.jpg) !important;
+  background-size: cover;
+  background-position: center center
+}
+
+#intro {
+height: 40%;
+}
+
+#browseProject {
+height: 20%;
+margin-bottom: 10%;
+}
+
+#introf{
+position: relative;
+top: 40%;
+left: 50%;
+transform: translateX(-50%);
+}
+
+#browseProjectd{
+  margin-top: 10px;
+}
+
+#project1 {
+  background-image: url(../../src/images/game.jpg) !important;
+  background-size: cover;
+  background-position: center center
+}
+
+#project2 {
+  background-image: url(../../src/images/pixelCanvas.jpg) !important;
+  background-size: cover;
+  background-position: center center
+}
+
+#project3 {
+  background-image: url(../../src/images/wallstat.jpg) !important;
+  background-size: cover;
+  background-position: center center
+}
+
+#project4 {
+  background-image: url(../../src/images/thok.jpg) !important;
+  background-size: cover;
+  background-position: center center
 }

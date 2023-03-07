@@ -11,12 +11,12 @@ function LayoutsNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#aboutMe">About Me</Nav.Link>
+            <Nav.Link href="https://www.linkedin.com/in/yilutmak/">LinkedIn</Nav.Link>
             <NavDropdown title="Projects" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#red">Resident Pixel 2</NavDropdown.Item>
-              <NavDropdown.Item href="#green">Pixel Canvas</NavDropdown.Item>
-              <NavDropdown.Item href="#yellow">WallStats</NavDropdown.Item>
-              <NavDropdown.Item href="#purple">Thok</NavDropdown.Item>
+              <NavDropdown.Item href="#project1">Resident Pixel 2</NavDropdown.Item>
+              <NavDropdown.Item href="#project2">Pixel Canvas</NavDropdown.Item>
+              <NavDropdown.Item href="#project3">WallStats</NavDropdown.Item>
+              <NavDropdown.Item href="#project4">Thok</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

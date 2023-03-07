@@ -2,7 +2,6 @@ import '@/styles/globals.scss'
 import { ToastContainer } from 'react-toastify'
 import { appWithTranslation } from 'next-i18next'
 import LayoutsNavbar from '@/components/navbar'
-import appWithSession from '@/hoc/appWithSession'
 import { ScrollProvider } from '@/contexts/scroll'
 import SSRProvider from 'react-bootstrap/SSRProvider'
 
@@ -28,4 +27,4 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-export default appWithSession(appWithTranslation(MyApp))
+export default appWithTranslation(MyApp)
